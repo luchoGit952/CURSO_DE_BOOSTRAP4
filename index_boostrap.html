@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de bostrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="normalize/normalize.css">
+    <link rel="stylesheet" href="estilos_boostrap.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- tipografia de boostrap -->
+  <h2 class="h6">clase h6</h2>
+  <h2 class="h5">clase h5</h2>
+  <h2 class="h4">clase h4</h2>
+  <hr>
+
+  <h1 class="display-1">display-1</h1>
+  <h1 class="display-2">display-2</h1>
+  <h1 class="display-3">display-3</h1>
+
+  <hr>
+
+  <h1>boostrap con <span class="text-muted">HTML text-muted</span></h1>
+
+  <hr>
+  <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, adipisci.</p>
+  <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, adipisci.</p>
+  <p class="font-weight-bold">negrita</p>
+  <p class="font-italic">italica</p>
+  <p class="font-weight-normal">fuente normal</p>
+  <p class="text-uppercase">texto en mayuscula</p>
+  <p class="text-lowercase">TEXTO EN MINUSCULA</p>
+  <p class="text-capitalize">primeras letras en mayusculas</p>
+
+  <blockquote class="blockquote">
+    <p>agregando citas</p>
+  </blockquote>
+
+  <blockquote class="blockquote">
+    <p>agregando citas</p>
+    <footer class="blockquote">nombre de la presona que dijo la cita <cite title="origen de la cita">origen de la cita</cite></footer>
+  </blockquote>
+
+  <hr>
+
+  <!-- TEXTOS ALINEADOS -->
+
+  <p class="text-justify">textos alineados  <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aut natus libero consectetur labore inventore beatae, consequatur minus asperiores eum accusamus iste quam adipisci. Itaque ipsa id repellendus natus amet!</p>
+<p class="text-left">texto alineado ala izquierda</p>
+<p class="text-right">texto alineado ala derecha</p>
+<p class="text-center">texto alineado al centro</p>
+
+<p class="text-sm-right">texto alineado ala derecha cuando la pantalla es pequeña</p>
+<p class="text-md-right">texto alineado ala drecha cuando la pantalla es mediana</p>
+<p class="text-lg-right">texto alineado ala derecha cuando la pantalla es grandre</p>
+<p class="text-xl-right">texto alineado ala derecha cuando la pantalla es extragrande</p>
+
+<br><br>
+<p class="text-sm-left">texto alineado ala izquierda cuando la pantalla es pequeña </p>
+<p class="text-md-left">texto alineado ala izquierda cuando la pantalla es mediana</p>
+<p class="text-lg-left">texto alineado ala izquierda cuando la pantalla es grandre</p>
+<p class="text-xl-left">texto alineado ala izquierda  cuando la pantalla es extragrande</p>
+
+<br><br>
+
+<p class="text-sm-center">texto alineado al centro cuando la pantalla es pequeña</p>
+<p class="text-md-center">texto alineado al centro  cuando la pantalla es mediana</p>
+<p class="text-lg-center">texto alineado al centro  cuando la pantalla es grandre</p>
+<p class="text-xl-center">texto alineado al centro cuando la pantalla es extragrande</p>
+
+<br><br>
+<span class="align-baseline"> alineacion por defecto</span>
+<span class="align-top"> alineacion arriba top</span>
+<span class="align-text-top"> alineacion arriba</span>
+<span class="align-text-bottom"> alineacion abajo</span>
+<span class="align-text-middle"> alineacion al medio</span>
+
+<br><br>
+<h1 class="bg-success">elmento </h1>
+<h2 class="bg-success">en bloque</h2>
+
+<h1 class="bg-success d-inline"> cambiando elemento </h1>
+<h2 class="bg-success d-inline">en linea</h2>
+<br><br>
+<span class="bg-danger d-inline">en linea </span>
+<span class="bg-danger d-block"> en bloque</span>
+
+<br><br>
+<div class="bg-success">
+    <h1>elemento</h1>
+    <span>en bloque</span>
+</div>
+ 
+<div class="bg-success">
+    <h1>elemento</h1>
+    <span>en bloque</span>
+</div>
+
+<div class="bg-success">
+    <h1>elemento</h1>
+    <span>en bloque</span>
+</div>
+ <br>
+<div class="d-inline-block bg-success">
+    <h1>elemento</h1>
+    <span>en linea</span>
+</div>
+
+<div class="d-inline-block bg-success">
+    <h1>elemento</h1>
+    <span>en linea</span>
+</div>
+
+<br><br>
+
+<!-- POSICIONES FIJAS y FLOTANTES -->
+
+<div class="float-left">flotando</div>
+<div class="">flotando</div>
+<div class="">flotando</div>
+
+<br><br>
+
+<!-- flotando segun tamaño de pantalla -->
+<div class="float-sm-right">flotando ala derecha</div>
+<div class="float-md-right">flotando derecha</div>
+<div class="flot-lg-rigth">flotando ala derecha</div>
+
+<br><br>
+
+<!-- POSISCION FIJA -->
+<div class="bg-success clearfix">
+  <button class="float-left">izquierda</button>
+  <button class="float-left">derecha</button>
+
+</div>
+
+
+<br><br>
+
+
+<!-- <h3 class="fixed-top">navegacion</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+    deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+    necessitatibus accusamus assumenda, culpa eveniet sit?</p> -->
+
+
+    <h3 class="sticky-top">navegacion</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+    deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+    necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+        deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+        necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+            deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+            necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+        
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+            
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                    deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                    necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+            
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                        deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                        necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                            deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                            necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+                        
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                                deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                                necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+                        
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                                    deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                                    necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+
+
+
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                                        deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                                        necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+                                    
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                                            deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                                            necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+                                    
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                                                deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                                                necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+                                            
+                                    
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                                                    deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                                                    necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+                                                
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                                                        deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                                                        necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+                                                
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                                                            deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                                                            necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+                                            
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                                                                deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                                                                necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+                                                            
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                                                                    deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                                                                    necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+                                                            
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem officiis 
+                                                                        deserunt laborum error voluptas qui? Autem ducimus quasi libero vitae perspiciatis quidem! Commodi 
+                                                                        necessitatibus accusamus assumenda, culpa eveniet sit?</p>
+                                
+
+
+                        <!-- <footer><h3 class="fixed-bottom">pie de pagina</h3></footer> -->
+
+
+                        <!-- Textos y fondos -->
+            
+                <br><br>
+                <p class="text-danger">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus aperiam a 
+                    explicabo atque tempora possimus error vel accusamus tenetur natus, autem hic quas
+                     non consequatur saepe repellendus. Id, sunt aliquam!</p>
+
+                     <p class="bg-danger text-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus aperiam a 
+                        explicabo atque tempora possimus error vel accusamus tenetur natus, autem hic quas
+                         non consequatur saepe repellendus. Id, sunt aliquam!</p>
+
+                         <p class="text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus aperiam a 
+                            explicabo atque tempora possimus error vel accusamus tenetur natus, autem hic quas
+                             non consequatur saepe repellendus. Id, sunt aliquam!</p>
+
+                             <p class=" bg-dark text-success">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus aperiam a 
+                                explicabo atque tempora possimus error vel accusamus tenetur natus, autem hic quas
+                                 non consequatur saepe repellendus. Id, sunt aliquam!</p>
+
+                                 <div class="bg-primary">
+                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis exercitationem rerum et iste 
+                                         perspiciatis consectetur, est fugiat officiis! Tempore amet blanditiis 
+                                         ullam sequi maxime architecto corporis dolore similique voluptas assumenda!</p>
+
+
+                                </div>   
+                                
+                                <!---------------------------- Margins y paddings -->
+
+                                 <h1 class="bg-danger mt-5">margenes</h1>
+                                 <h1 class="bg-danger mt-4">margenes</h1>
+                                 <h1 class="bg-danger mt-3">margenes</h1>
+                                 <h1 class="bg-danger mt-2">margenes</h1>
+                                 <h1 class="bg-danger mt-0">margenes</h1>
+
+
+                                 <h1>Margenes<span class="ml-4"> en boostrap</span></h1>
+                                 <h1>Margenes<span class="mb-4"> en boostrap</span></h1>
+                                <h1 class="bg-success m-5">margen hacia todos los lados</h1>
+
+
+                                 <p>estilos<span class="mx-5">alas ejes</span>x</p>
+                                 <p>estilos<span class="my-5">alas ejes</span>y</p>
+                                 <p>estilos<span class="my-5">alas ejes</span>y</p>
+                                 <p>estilos<span>alas ejes</span>y</p>
+
+                                 <hr>
+                        
+           <!-- paddin -->
+           <h1 class="bg-warning pt-5">paddin top</h1>
+           <h1 class="bg-warning pl-5">paddin left</h1>
+           <h1 class="bg-warning pb-5">paddin bottom</h1>
+           <h1 class="bg-warning pr-4">paddin rigth</h1>
+
+           <h1 class="bg-info p-5">paddin hacia todo los lados</h1>
+
+
+
+<hr>
+                                     <!-- altos y anchos -->
+
+                                     <div class="bg-success p-4 w-25">
+                                         ancho 25%
+                                     </div>
+                                     
+                                     <div class="bg-success p-4 w-50">
+                                        ancho 50%
+                                    </div>
+
+                                    <div class="bg-success p-4 w-75">
+                                        ancho 75%
+                                    </div>
+
+                                    <div class="bg-success p-4 w-100">
+                                        ancho 100%
+                                    </div>
+
+
+                                    <hr>
+
+
+                                    <div class="bg-info" style="border: 1px black solid; height: 300px;">
+                                      <div class="bg-dark d-inline-block h-25">alto_1 25%</div>
+                                    
+                                     <div class="bg-dark  d-inline-block h-50" >alto_2 50%</div>
+                                    
+                                      <div class="bg-dark d-inline-block  h-75">alto_3 75%</div>
+                                    
+                                        <div class="bg-dark d-inline-block h-100">alto_4 100%</div>
+                               
+                                        
+                                    
+                                </div>
+
+
+                                <!-- ------------------breakpoint------------------------ -->
+
+
+        <style media="screen">
+              /* @media(min-width: 576px){
+                  body{
+                      background: red;
+                  }
+
+                  @media(min-width: 768px){
+                  body{
+                      background: black;
+                  }
+              }
+              @media(min-width: 992px){
+                  body{
+                      background: blue;
+                  }
+              }
+              @media(min-width: 1220px){
+                  body{
+                      background: yellow;
+                  }
+              }
+
+              } */
+
+              @media(max-width: 1220px){
+                  body{
+                      background: green;
+                  }
+              }
+                  @media(max-width: 992px){
+                  body{
+                      background: aqua;
+                  }
+                  }
+                  @media(max-width: 768px){
+                  body{
+                      background: brown;
+                  }
+                  }
+                  @media(max-width: 576px){
+                  body{
+                      background: blueviolet;
+                  }
+                  }
+    
+        </style>
+
+<!-- ---------------------Botones------------------------------------ -->
+
+<button class="btn btn-primary">Prueba</button>
+<button class="btn btn-primary">Prueba</button>
+<button class="btn btn-link">Prueba</button>
+<button class="btn btn-light">Prueba</button>
+<button class="btn btn-dark">Prueba</button>
+
+
+<hr>
+<a href="" class="btn btn-dark">Enlace</a>
+<input type="reset" value="reset" class="btn btn-danger">
+
+<button class="btn btn-outline-danger">Boton</button>
+<button class="btn btn-outline-success btn-lg">Boton grande</button>
+<button class="btn btn-outline-danger btn-sm">Boton pequeño</button>
+<button class="btn btn-outline-warning btn-xl">Boton extra grande</button>
+<button class="btn btn-outline-danger btn-block">Boton toda la pantalla </button>
+
+<hr>
+<button class="btn btn-outline-success btn-lg" > <i class="fa fa-user"></i>Boton grande con iconos
+   
+</button>
+
+<button class="btn btn-success "> <i class="fa fa-bug" aria-hidden="true"></i>animal</button>
+<button class="btn btn-danger disabled" data-toggle="button" >Disable</button>
+<hr>
+
+
+<div class="dropdown">
+ <button class="btn btn-info dropdown-toggle" data-toggle="dropdown"> toggle dropdown</button>
+ <div class="dropdown-menu">
+     <a href="" class="dropdown-item">uno</a>
+     <a href="" class="dropdown-item">dos</a>
+     <a href="" class="dropdown-item">tres</a>
+     <a href="" class="dropdown-item">cuatro</a>
+ </div>
+</div>
+
+<hr>
+<div class="btn-group">
+    <button >grupo de botones</button>
+    <button class="btn btn-dark">Izquierda</button>
+    <button class="btn btn-dark">centro</button>
+    <button class="btn btn-dark">derecha</button>
+
+   </div>
+<br><br><hr>
+
+<div class="btn btn-toolbar" role="toolbar">
+    <div class="btn btn-group"> 
+        <div class="btn btn-warning">boton toolbar 1</div>
+        <div class="btn btn-warning">boton toolbar 2</div>
+        <div class="btn btn-warning">boton toolbar 3</div>
+        <div class="btn btn-warning">boton toolbar 4</div>
+    </div>
+   
+    <div class="btn btn-group"> 
+        <div class="btn btn-warning">boton toolbar 5</div>
+        <div class="btn btn-warning">boton toolbar 6</div>
+        <div class="btn btn-warning">boton toolbar 7</div>
+        <div class="btn btn-warning">boton toolbar 8</div>
+    </div>
+    
+</div>
+<div class="btn-group-vertical">
+    <button class="btn btn-dark">Botones Verticales</button>
+    <button class="btn btn-dark">botones Verticales</button>
+    <button class="btn btn-dark">Botones Verticales</button>
+   </div>
+
+   <!----------------------------------------- List group----------------------------------------- -->
+<br><br>
+<div class="container">
+    <ul class="list-group">
+        <li class="list-group-item">Grupo de listas</li>
+        <li class="list-group-item">Grupo de listas</li>
+        <li class="list-group-item">Grupo de listas</li>
+    </ul>
+    <hr>
+    <ul class="list-group">
+      <a href="" class="list-group-item list">Enlace_1</a>
+      <a href=""class="list-group-item">enlace_2</a>
+      <a href=""class="list-group-item">enlace_3</a>
+
+    </ul>
+    <hr>
+    <ul class="list-group">
+         <a href="" class="list-group-item  list-group-item-danger">Lista de grupo</a>
+         <a href="" class="list-group-item  list-group-item-info">Lista de grupo</a>
+         <a href="" class="list-group-item  list-group-item-warning">Lista de grupo</a>
+
+    </ul>
+    <!-- ----------------------------badges---------------- -->
+    <ul class="list-group">
+         <a href="" class="list-group-item">Badges</a>
+         <a href=""class="list-group-item">Badges <span class="badge badge-success">14</span></a>
+         <a href=""class="list-group-item">Badges <span class="badge badge-dark badge-pill">15</span></a>
+         <a href=""class="list-group-item d-flex justify-content-between alig-item-center">Badges <span class="badge badge-dark badge-pill">15</span></a>
+    </ul>
+    <hr>
+    <div class="list-group">
+       <a href="" class="list-group-item list-group-item-acction flex-colum align-items-start active">
+           <div class="d-flex w-100 justify-content-between">
+               <h5 class="mb-1">Nuevo mensaje</h5>
+               <small>13 jun 2020</small>
+           </div>
+           <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni nisi tempora 
+            tempore at deserunt. Non soluta aliquam hic earum eum?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel ex quae temporibus magni adipisci voluptate 
+        expedita possimus ipsa ullam tenetur eius quo quibusdam, 
+        recusandae enim. Deserunt fugit quo accusamus velit?</p>
+       </a>
+    </div>
+    <!-- ------------------------------------Breandcrumb----------------------------------------------- -->
+    <hr>
+    <ol class="breadcrumb">
+     <li class="breadcrumb-item">Breadcrumb</li>
+    </ol>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active">Breadcrumb</li>
+        <li class="breadcrumb-item">Breadcrumb</li>
+        <li class="breadcrumb-item">Breadcrumb</li>
+        <li class="breadcrumb-item">Breadcrumb</li>
+       </ol>
+</div>
+   
+<!-- ------------------------------Navegacion----------------------------------------- -->
+
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+        <a href="" class="navbar-brand">Mi App</a>
+        <div class="navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<hr>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+        <a href="" class="navbar-brand">Mi App</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primer">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse navbar-collapse" id="primer">
+            <ul class=" navbar-nav ml-auto">
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<hr>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+        <a href="" class="navbar-brand">Mi App</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#segundo">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse navbar-collapse" id="segundo">
+            <ul class=" navbar-nav ml-auto">
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+            </ul>
+            <form class="form-inline">
+                <input type="text" class="form-control" placeholder="Buscar">
+                <button class="btn btn-outline-success">Buscar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<hr>
+<hr>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+        <a href="" class="navbar-brand">Mi App</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primer">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse navbar-collapse" id="primer">
+            <ul class=" navbar-nav ml-auto">
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Navegacion</a></li>
+                <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Item padre
+                </a>
+                <div class="dropdown-menu">
+                  <a href="" class="dropdown-item">Link</a>
+                  <a href="" class="dropdown-item">Link</a>
+                  <a href="" class="dropdown-item">Link</a>
+
+                </div>
+            </li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+
+<!-- -----------------------Alertas y progress bar------------------------------------------- -->
+
+<div class="alert bg-danger">
+ <strong>Alertas</strong>
+</div>
+<div class="alert alert-danger">
+    
+    <h4>Alertas</h4>
+    <strong>Alertas</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, sapiente fuga autem accusantium ipsam saepe perspiciatis soluta alias, libero assumenda dolorum 
+    modi commodi veniam eum cupiditate fugit! Vitae, animi totam <a href="" class="alert-link">Click aqui</a>
+
+   </div>
+   <div class="alert alert-danger">
+       <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+    <strong>Alertas</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, sapiente fuga autem accusantium ipsam saepe perspiciatis soluta alias, libero assumenda dolorum 
+    modi commodi veniam eum cupiditate fugit! Vitae, animi totam <a href="" class="alert-link">Click aqui</a>
+</div>
+
+<div class="alert alert-danger alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+ <strong>Alertas</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, sapiente fuga autem accusantium ipsam saepe perspiciatis soluta alias, libero assumenda dolorum 
+ modi commodi veniam eum cupiditate fugit! Vitae, animi totam <a href="" class="alert-link">Click aqui</a>
+</div>
+
+<hr>
+<!-- -----------------Progress bar----------------------------------- -->
+<div class="progress">
+    <div class="progress-bar" style="width: 25%;"> </div>
+</div>
+<br><br>
+<div class="progress">
+    <div class="progress-bar bg-success" style="width: 25%;"> </div>
+</div>
+<div class="progress">
+    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 25%;"> </div>
+</div>
+<br>
+</div>
+<div class="progress">
+    <div class="progress-bar bg-danger " style="width: 25%;"> </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
